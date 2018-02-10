@@ -4,6 +4,7 @@ public class Acidente {
 	private String situacao;
 	private String condTecnica;
 	private String causa;
+	private String predict;
 	public String getTipoAcidente() {
 		return tipoAcidente;
 	}
@@ -27,6 +28,12 @@ public class Acidente {
 	}
 	public void setCausa(String causa) {
 		this.causa = causa;
+	}
+	public String getPredict() {
+		return predict;
+	}
+	public void setPredict(String predict) {
+		this.predict = predict;
 	}
 	
 	
